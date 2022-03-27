@@ -1,0 +1,13 @@
+{
+   "manifest_version": 3,
+   "name": "Omniup bypass",
+   "version": "0.1",
+   "author": "elkhayder",
+
+   "content_scripts": [
+      {
+         "matches": ["*://wp.omniup.com/v4/*"],
+         "js": ["skip.js"]
+      }
+   ]
+}
